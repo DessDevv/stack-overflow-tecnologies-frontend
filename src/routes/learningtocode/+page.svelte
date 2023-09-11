@@ -14,7 +14,7 @@
 */
 	let data = [];
 	async function fetchData() {
-		const VITE_BACKEND_URL = 'http://127.0.0.1:3000';
+		const VITE_BACKEND_URL = 'https://stack-overflow-tecnologies-backend-node.onrender.com';
 		try {
 			const servidorAxios = axios.create({
 				baseURL: `${VITE_BACKEND_URL}/api/v1`
